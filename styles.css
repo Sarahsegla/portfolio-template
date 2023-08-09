@@ -1,0 +1,89 @@
+.model-image {
+    width: 70%;
+    height: 70%;
+    padding-left: 100px;
+}
+
+
+.jumbotron {
+    background-color: white;
+    padding-top: 140px;
+    padding-left: 50px;
+}
+
+.display-4 {
+    font-size: 80px;
+}
+
+.lead {
+    font-size: 50px;
+}
+
+
+#about {
+    background-color: rgb(145, 94, 94);
+}
+
+.service {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        align-items: center;
+    }
+
+    /* #about-row {
+        padding-left: 200px;
+    } */
+
+    .about-title {
+        padding-left: 50px;
+        padding-bottom: 60px;
+        padding-top: 70px;
+    }
+
+    .about-para {
+        padding-left: 50px;
+        padding-bottom: 60px;
+    }
+
+    .info-title {
+        padding-left: 50px;
+        padding-bottom: 60px;
+        padding-top: 70px;
+    }
+
+    .info-para {
+        padding-left: 50px;
+        padding-bottom: 290px;
+    }
+
+    .model2-image {
+        width: 70%;
+    height: 70%;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    }
+    .service {
+        padding-top: 70px;
+        padding-bottom:100px;
+    }
+
+    .service-image {
+        height: 350px;
+  width: 250px;
+  border-radius: 20%;
+    }
+
+    #service-conainter {
+        padding-left: 70px;
+    }
+
+
+
+
+
+
+    
+}

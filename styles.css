@@ -81,6 +81,61 @@
   border-radius: 20%;
     }
 
+    #service-conainter {
+        
+        padding-bottom: 30px;
+    }
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 7px;
+        margin-bottom: 17px;
+        resize: vertical;
+      }
+      input[type=email] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 7px;
+        margin-bottom: 17px;
+        resize: vertical;
+      }
+
+      button[type=submit] {
+        background-color: black;
+        color: white;
+    
+        
+      }
+      .contact {
+        margin-left: 60px;
+        margin-bottom: 40px;
+        
+      }
+
+      .card {
+        background-color: rgb(145, 94, 94);
+        width: 20rem;
+        
+        
+      }
+
+footer {
+    background-color: rgb(145, 94, 94);
+    text-align: center;
+    padding-top: 30px;
+}
+a {
+    color: inherit;
+}
+    
+
     @media (max-width: 432px) {
         .model2-image {
            display: none;
@@ -116,8 +171,49 @@
     @media only screen and (min-width: 768px) {
     #service-conainter {
         padding-left: 70px;
+        padding-bottom: 120px;
     }
-   
+
+    br {
+        display: none;
+    }
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 7px;
+        margin-bottom: 17px;
+        resize: vertical;
+      }
+      input[type=email] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 7px;
+        margin-bottom: 17px;
+        resize: vertical;
+      }
+
+      button[type=submit] {
+        background-color: black;
+        color: white;
+    
+        
+      }
+      .contact {
+        margin-left: 350px;
+        margin-bottom: 100px;
+      }
+
+      .card {
+        background-color: rgb(145, 94, 94);
+        width: 38rem;
+      }
 
 
 

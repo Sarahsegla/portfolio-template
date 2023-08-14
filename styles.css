@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
     background-color: white;
 }
@@ -80,7 +83,11 @@
   width: 250px;
   border-radius: 20%;
     }
-
+    
+    /* #service-image {
+padding-top: 50px;
+padding-bottom: 150px;
+    } */
     #service-conainter {
         
         padding-bottom: 30px;
@@ -126,17 +133,35 @@
         
       }
 
+   
+
 footer {
     background-color: rgb(145, 94, 94);
     text-align: center;
     padding-top: 30px;
+    
 }
 a {
     color: inherit;
 }
+
+.service-title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#row {
+    padding-top: 80px;
+padding-bottom: 150px;
+padding-left: 50px;
+}
     
 
     @media (max-width: 432px) {
+
+        html {
+            scroll-behavior: smooth;
+        }
         .model2-image {
            display: none;
         }

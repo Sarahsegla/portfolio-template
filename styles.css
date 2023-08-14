@@ -246,3 +246,9 @@ padding-left: 50px;
 
     
 }
+
+@media (max-width: 844px) {
+.contact {
+    margin-left: 120px;
+}
+}

@@ -121,16 +121,23 @@ padding-bottom: 150px;
         
       }
       .contact {
-        margin-left: 60px;
+        padding-left: 10px;
         margin-bottom: 40px;
         
+      }
+      .contact-me {
+        padding-bottom: 40px;
       }
 
       .card {
         background-color: rgb(145, 94, 94);
-        width: 20rem;
+        width: 17rem;
+        margin-right: 1px;
         
         
+      }
+      .card-service {
+        width: 16rem;
       }
 
    
@@ -189,6 +196,27 @@ padding-left: 50px;
             z-index: 2;
             position: absolute;
             padding-left: 10px;
+        }
+        .service {
+            padding-top: 10px;
+            padding-bottom:60px;
+        }
+        .contact {
+            align-items: center;
+            padding-left: 0px;
+            margin-bottom: 40px;
+            
+          }
+          #row {
+            padding-top: 80px;
+        padding-bottom: 150px;
+        padding-left: 30px;
+        }
+        .col-12 {
+            padding-bottom: 50px;
+        }
+        .card-service {
+            padding-left: 60px;
         }
         
     }
@@ -251,4 +279,5 @@ padding-left: 50px;
 .contact {
     margin-left: 120px;
 }
+
 }
